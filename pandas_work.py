@@ -139,7 +139,7 @@ df.to_csv(os.path.join(dirname, 'modified_file.csv'), index=False)
 dirname = os.path.dirname(csv_file)
 
 # Create an ExcelWriter object
-writer = pd.ExcelWriter(os.path.join(dirname, 'modified_file.xlsx'), engine='xlsxwriter')
+writer = pd.ExcelWriter(os.path.join(dirname, 'Proccessed KD Data.xlsx'), engine='xlsxwriter')
 
 # Write each dataframe to a separate sheet in the Excel file
 df.to_excel(writer, sheet_name='Data')
