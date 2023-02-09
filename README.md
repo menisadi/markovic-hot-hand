@@ -2,7 +2,7 @@
 
 [![HitCount](https://hits.dwyl.com/menisadi/markovic-hot-hand.svg?style=flat-square)](http://hits.dwyl.com/menisadi/markovic-hot-hand)
 
-![banner](Graphics/basketball.png)
+![banner](graphics/basketball.png)
 
 ## Introduction
 
