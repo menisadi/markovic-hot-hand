@@ -27,8 +27,10 @@ The results of this project will contribute to the ongoing debate on the hot han
 ## How to Cite
 If you use this project in your research or work, please cite it as follows:
 ```
-Dvir Ross, Menachem Sadigurschi, Inbar Tamir (2023).  
-The Hot Hand Fallacy - a Markovic Point of View.  
-Available at: 
-https://github.com/menisadi/markovic-hot-hand.
+@misc{markovic_hot_hand_analysis,
+  author = {Dvir Ross, Menachem Sadigurschi, Inbar Tamir},
+  title = {The Hot Hand Fallacy - a Markovic Point of View},
+  year = {2023},
+  howpublished = {\url{https://github.com/menisadi/markovic-hot-hand}}
+}
 ```
