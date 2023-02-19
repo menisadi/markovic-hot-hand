@@ -6,7 +6,7 @@
 
 ## Introduction
 
-The hot hand fallacy is a popular basketball myth that suggests that a player is more likely to score a basket if they have made several shots in a row. This project takes data of shots by NBA stars and applies statistical tools to check if this phenomenon is indeed real or simply a result of plain randomness and the law of large numbers. The analysis focuses on modeling the process as a Markov chain, meaning that each shot's success probability depends on past shots. The main idea is to calculate those dependencies and their magnitude.
+The hot hand fallacy is a popular basketball myth that suggests that a player is more likely to score a basket if they have made several shots in a row. This project takes data of shots by NBA stars and applies statistical tools to check if this phenomenon is indeed real or simply a result of plain randomness and the law of large numbers. The analysis focuses on modeling the process as a Markov Chain, meaning that each shot's success probability depends on past shots. The main idea is to calculate those dependencies and their magnitude.
 
 ## Data
 
@@ -14,7 +14,7 @@ The data used in this project is a collection of shots taken by NBA players duri
 
 ## Methodology
 
-The project is done using python, numpy, pandas, and scipy. The first step is to clean and prepare the data for analysis. This involves removing missing values and converting relevant columns into the appropriate data type. Next, the dependencies between shots are calculated using a Markov chain model. The probabilities of making a shot given a certain number of consecutive made shots are estimated and visualized. Finally, a statistical test is performed to determine if there is a significant difference between the observed data and a model that assumes that the shots are independent and identically distributed.
+The project is done using python, numpy, pandas, and scipy. The first step is to clean and prepare the data for analysis. This involves removing missing values and converting relevant columns into the appropriate data type. Next, the dependencies between shots are calculated using a Markov Chain model. The probabilities of making a shot given a certain number of consecutive made shots are estimated and visualized. Finally, a statistical test is performed to determine if there is a significant difference between the observed data and a model that assumes that the shots are independent and identically distributed.
 
 ## Results
 
